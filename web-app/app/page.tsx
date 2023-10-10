@@ -1,5 +1,11 @@
-export default function App() {
+import InvalidateCache from "@/components/InvalidateCache";
+
+const App = () => {
   return (
-    <h1>Hello</h1>
+    <div>
+      <InvalidateCache gotoCaching={() => console.log("Caching")} gotoTraficManagement={() => console.log("TraficManagement")}/>
+    </div>
   )
 }
+
+export default App;

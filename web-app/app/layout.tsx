@@ -9,14 +9,16 @@ export const metadata: Metadata = {
   description: 'A helper to apigee (policies, proxies, sharedflows...)',
 }
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: {
   children: React.ReactNode
-}) {
+}) => {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   )
 }
+
+export default RootLayout;

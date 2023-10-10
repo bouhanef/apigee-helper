@@ -1,0 +1,12 @@
+{
+    "TrafficManagement" : {
+        "name": "Traffic management policies",
+        "description": "Let you configure caching, control quotas, mitigate the effects of spikes, set concurrent rate limits, and perform other functions related to your API traffic.",
+        "Caching": {
+            "name": "Caching policies",
+            "InvalidateCache" : {
+                "name" : "InvalidateCache policy"
+            }
+        }
+    }
+}
